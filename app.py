@@ -5,7 +5,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 
 # Load the data
-df = pd.read_excel('/Users/careyqiu/Desktop/YouGov_2024_general_election_MRP_2.xlsx', sheet_name='data-5sWjS (1)')
+df = pd.read_excel('YouGov_2024_general_election_MRP_2.xlsx', sheet_name='data-5sWjS (1)')
 
 # Define a modern pastel color palette similar to "Chartr"
 color_discrete_map = {
